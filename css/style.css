@@ -1,7 +1,68 @@
-*   {
+body  {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   border: 0;
+  /* Standard CSS start above */
+  font-family: roboto;
+  display: flex;
+  flex-flow: column;
 } 
 
+header, .top, footer {
+    background-color:  #1F2937 ;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top img {
+    width: 400px;
+}
+
+.topcard {
+    flex: 0 0 400px;
+    margin: 2em;
+    padding: 3em;
+}
+
+.topcard .title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.topcard .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+footer {
+    color: #e5e7eb
+}
