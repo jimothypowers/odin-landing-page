@@ -64,6 +64,10 @@ header {
 }
 
 
+.mid1 .midtitle {
+    font-weight: bold;
+}
+
 .mid1 .container{
     display: flex;
     flex-direction: column;
@@ -71,7 +75,6 @@ header {
     align-items: center;
     padding: 2em;
     font-size: 36px;
-    font-weight: bold;
 }
 
 .midcontainer {
