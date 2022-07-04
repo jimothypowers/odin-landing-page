@@ -26,8 +26,6 @@ header {
     display: flex;
     flex-direction: row;
     gap: 1em;
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .top {
@@ -57,12 +55,75 @@ header {
     color: #e5e7eb;
 }
 
+
+.mid1 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.midcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+    padding-bottom: 0;
+    gap: 0 2em;
+    font-size: 18px;
+    width: 0;
+}
+
+.mid2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 3em;
+}
+
+.mid2 .container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 800px;
+}
+
+.mid2 .container .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sig {
+    align-self: flex-end;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.info img {
+    width: 150px;
+    border: rgb(1, 95, 236) solid 3px;
+}
+
+
 ul, a {
+    font-size: 18px;
     list-style-type: none;
     text-decoration: none;
+    color: #e5e7eb;
     
 }
 
 footer {
-    color: #e5e7eb
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
 }
